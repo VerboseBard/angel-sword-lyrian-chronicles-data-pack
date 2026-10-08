@@ -1,0 +1,235 @@
+{
+ "source": "https://clio-proxy.angelssword.com/api/ttrpg",
+ "rulesVersion": "0.13.2",
+ "latest": {
+  "versionNumber": "0.13.2",
+  "versionId": "6a5e50be98f4934cf278b6e5",
+  "name": "Lyrian Chronicles"
+ },
+ "pulledAtUtc": "2026-10-08T18:06:41+00:00",
+ "finishedAtUtc": "2026-10-08T18:07:33+00:00",
+ "requests": 544,
+ "failures": [],
+ "recordCounts": {
+  "ancestries": 44,
+  "ancestry_details": 44,
+  "breakthroughs": 89,
+  "class_details": 185,
+  "classes": 185,
+  "item_details": 206,
+  "items": 206,
+  "key_abilities": 179,
+  "keywords": 92,
+  "monster_abilities": 144,
+  "monster_ability_lists": 85,
+  "monster_active_action_lists": 82,
+  "monster_active_actions": 163,
+  "monster_details": 84,
+  "monsters": 84,
+  "patch_notes": 1,
+  "primary_race_details": 5,
+  "primary_races": 5,
+  "rulebook": 1,
+  "settings_guide": 1,
+  "true_abilities": 958,
+  "versions": 38
+ },
+ "files": {
+  "clean/ancestries.json": {
+   "bytes": 176474,
+   "sha256": "b6ff28f6547949270036b7b7c9b9dd8a02a004e81a4d8f6298ccb086e1217e58"
+  },
+  "clean/ancestry_details.json": {
+   "bytes": 185865,
+   "sha256": "91b4d7447605f56e85a823783375b8b54818108422c83b93e4a5f7d4698783b5"
+  },
+  "clean/breakthroughs.json": {
+   "bytes": 72120,
+   "sha256": "d70b8272cb298ff5f267a9515c748e77851630e9785393098eed30c5c56da158"
+  },
+  "clean/class_details.json": {
+   "bytes": 1139630,
+   "sha256": "67b5304359279d0f7d87361f97753d5b366b04e9f202c6adee5c77c107370b8a"
+  },
+  "clean/classes.json": {
+   "bytes": 579140,
+   "sha256": "0163ee386159e5b1389f91d0a8e502176389966ef728c71670573c4550fe221d"
+  },
+  "clean/item_details.json": {
+   "bytes": 528184,
+   "sha256": "d47585e81b70ff04c997bd95206e5a831ff015890c9789ce4174724de91d4b65"
+  },
+  "clean/items.json": {
+   "bytes": 71507,
+   "sha256": "d03d9585802abf1fde24e9b1e00a2b0e6b1186a0202877ea6a083a33990f4878"
+  },
+  "clean/key_abilities.json": {
+   "bytes": 85159,
+   "sha256": "cb79aa15a5d6dc115763faa41c439078fb307a936aee11189909193a35f6d675"
+  },
+  "clean/keywords.json": {
+   "bytes": 43484,
+   "sha256": "5fca6f99b4f74d702853084c79d4a71541bef377a0cb2dde9e99fc1377527f1a"
+  },
+  "clean/monster_abilities.json": {
+   "bytes": 71429,
+   "sha256": "babc9195ee2e1603d18fa84d3f879850615ecec79d71e2f899e815eced4067a7"
+  },
+  "clean/monster_ability_lists.json": {
+   "bytes": 31109,
+   "sha256": "29279ebd241696f7bd6c994ae421b3cf6d7c67c7e39b5bdae1fdc89fab16fa23"
+  },
+  "clean/monster_active_action_lists.json": {
+   "bytes": 30178,
+   "sha256": "e283b60cf4fbbe8d42d5a325d014f960642709e6d41f0fd858eda58ce1d667ba"
+  },
+  "clean/monster_active_actions.json": {
+   "bytes": 122106,
+   "sha256": "db589dabbbfe5804775cee323c9830e4ec3c49302ba1e5fbb44a46d507b96abc"
+  },
+  "clean/monster_details.json": {
+   "bytes": 239038,
+   "sha256": "0c43ab5ee16558ac0aec4ca9c2b994e1c16a4a861e343677d190a0b24044368e"
+  },
+  "clean/monsters.json": {
+   "bytes": 54361,
+   "sha256": "5edcdac70485910d713e34dfd9df65b95b1d16022e5d642bdee1a60181cc8549"
+  },
+  "clean/patch_notes.json": {
+   "bytes": 6343,
+   "sha256": "01c51762044b3c2cffe2db84f75d029315815a3d81d26ebfa8664d98fdc090bb"
+  },
+  "clean/primary_race_details.json": {
+   "bytes": 16486,
+   "sha256": "e30736f82142d36a8cd06d63471347b86c9a8e8e520bdb5a7bd772a3bf5670d8"
+  },
+  "clean/primary_races.json": {
+   "bytes": 11753,
+   "sha256": "1814a64c6c2e788589b049fbc780aa0a8613c9f3ee19bb9faa864ef43d525cbb"
+  },
+  "clean/rulebook.json": {
+   "bytes": 261866,
+   "sha256": "16de672333bd88e010498449c9efb08df6943cc0d7194a6e4d689d98d613e469"
+  },
+  "clean/settings_guide.json": {
+   "bytes": 74475,
+   "sha256": "4ab1bc3eccf7575d46c16a4cfc1cfa3d05b6ed0f462c657378c5325ff4eb05c5"
+  },
+  "clean/true_abilities.json": {
+   "bytes": 901512,
+   "sha256": "db05b9cd684f73ad5c4328a88064797ff7df8d74220d1fd4c446e38fe474cb0e"
+  },
+  "clean/versions.json": {
+   "bytes": 4134,
+   "sha256": "50fac377445e8bb928ab5625bf373f7c68f5e23272c992b040ca68e821e360bb"
+  },
+  "derived/ability_sources.json": {
+   "bytes": 280890,
+   "sha256": "df8fd4113913d505b86ec94ddc3478cd5c9ce9f28ec867468581bc1c304d7123"
+  },
+  "derived/class_progression.json": {
+   "bytes": 312583,
+   "sha256": "ce49ccd2dc194ebd13448404c38145b8e0fcc38d192ce22212413ed8641851c0"
+  },
+  "extras/items-mods.json": {
+   "bytes": 239127,
+   "sha256": "ab611144883682023b4cd1d46204aa4e9df9eb93d94ed021c11208b528815601"
+  },
+  "extras/mod-descriptions.json": {
+   "bytes": 69393,
+   "sha256": "a7c77138b465a230718938d6855ca205c66ab606f9e37156b413fe42126c3d7d"
+  },
+  "raw/ancestries.json": {
+   "bytes": 95075,
+   "sha256": "8d4531aa9245c096e0a997fc0952d5d6d505bb1f9769f15d4443b61bdea0e8ab"
+  },
+  "raw/ancestry_details.json": {
+   "bytes": 104911,
+   "sha256": "dff793ca3e20c42ae070d6af740ef98d61e5ab6dc8bcebf68a469f0f3315445e"
+  },
+  "raw/breakthroughs.json": {
+   "bytes": 45036,
+   "sha256": "e7d973f5e6008bb70d420fe78d80ec33e249e9d87e38802688e913deca2aceaf"
+  },
+  "raw/class_details.json": {
+   "bytes": 671202,
+   "sha256": "51a43fa8957e7c8b428b374ba8ebf19a0ccc9fa5b4dd627abb61007ecc0d3238"
+  },
+  "raw/classes.json": {
+   "bytes": 321461,
+   "sha256": "310279503d81ed1f74218bed2fa3ae86b21957ca5c1eb7b14bbcd31c2aacfcd2"
+  },
+  "raw/item_details.json": {
+   "bytes": 335958,
+   "sha256": "29dc50bed1c3c7763cb9060c4392e9c4eb9e1f4298e3081614854aa61ce600c5"
+  },
+  "raw/items.json": {
+   "bytes": 64090,
+   "sha256": "78bfc107f1ee697e48d821eb76ad516194f99b561f6cf3e82f80f662974b9fed"
+  },
+  "raw/key_abilities.json": {
+   "bytes": 77962,
+   "sha256": "2227f4ad441d997c7b837c68b116e0e41dcf6b3118b85b3864104f04e54ffb6d"
+  },
+  "raw/keywords.json": {
+   "bytes": 26297,
+   "sha256": "d63cc0101f995606eef3db65eeb883b4370bfe128791bfdf9845c57fce95c20f"
+  },
+  "raw/monster_abilities.json": {
+   "bytes": 44154,
+   "sha256": "4bf4e92fa97437a63b4fd590554f083030651ca6d6ad3e818639ae363ea43dc3"
+  },
+  "raw/monster_ability_lists.json": {
+   "bytes": 27368,
+   "sha256": "3f1a7e082a4398885fd02d8d08291dc6377d0ac9238250f8c5a1cfcc5bbddcdc"
+  },
+  "raw/monster_active_action_lists.json": {
+   "bytes": 26569,
+   "sha256": "878511e3f60815b3000010c741d45431101d37577ca19fd9b64341692e61143c"
+  },
+  "raw/monster_active_actions.json": {
+   "bytes": 76743,
+   "sha256": "5c00f109889e0654bbcf68c3b97fd96dc44a0cf30fb4af79e670feb736fb09c0"
+  },
+  "raw/monster_details.json": {
+   "bytes": 163766,
+   "sha256": "760bed0784c56e40068d749d817e2324735b3857fe395e1b33bf743188433696"
+  },
+  "raw/monsters.json": {
+   "bytes": 37675,
+   "sha256": "fa7d01bf04b1aaef1674552aad54eff4d45336ad8d8db602883831f09a0b44df"
+  },
+  "raw/patch_notes.json": {
+   "bytes": 3471,
+   "sha256": "211aa545929ebfa7e6da414aa2d22125ea8c344bdc36c325f69e80ddd661afd3"
+  },
+  "raw/primary_race_details.json": {
+   "bytes": 11164,
+   "sha256": "5fb36f0397cb179833fab22080e8465b3f64dcf936d1bcc4c322087a8bd56b7d"
+  },
+  "raw/primary_races.json": {
+   "bytes": 6952,
+   "sha256": "ef103887ca06852fea2759ca64a54b1bf6a7c21f4c03491765dfe95f9b23c48c"
+  },
+  "raw/rulebook.json": {
+   "bytes": 139594,
+   "sha256": "d04fd5e5c548df31c3b35faed061a38a52ca8b23e73072fb1e54f78a0726e89b"
+  },
+  "raw/settings_guide.json": {
+   "bytes": 37600,
+   "sha256": "76861c83683e77117dc92f26b45e755b8acbe4cceb0ec9b9c3e2275a0a6fcf93"
+  },
+  "raw/true_abilities.json": {
+   "bytes": 556076,
+   "sha256": "b641f86b8ead302e8354c7dd30a5bdc1a324ae2ab86e2f8c175d306808de70a2"
+  },
+  "raw/version_latest.json": {
+   "bytes": 92,
+   "sha256": "b812391b6ac64185b7817b62a9c9696722c33b26d08321df8494183e16e633ef"
+  },
+  "raw/versions.json": {
+   "bytes": 3525,
+   "sha256": "944b5f34ffcd248a5645e32e704c4f2cbf20303b1c70ff9d239f9e6606d66e35"
+  }
+ }
+}

@@ -1,0 +1,659 @@
+{
+ "universal": {
+  "Ninja Weapon": "This weapon is treated as a weapon that can be used for Ninjutsu.",
+  "Quickdraw": "You may draw this weapon for 0 AP.",
+  "Gathering": "This weapon gives a +1 bonus to gathering rolls its used in.",
+  "Perfect Balance": "When using the weapon in dual wielding, you can perform a dual wield attack with your other weapon, even when making a heavy or precise attack with this weapon.",
+  "Surprise Weapon": "The weapon is designed to look like a mundane object.  Each Combat, after you draw the weapon, if the next attack you make that round is using this weapon and is a basic light or heavy attack it gains the Trick Attack keyword.  After benefitting from this bonus, you cannot do so again the same combat even if drawing a different weapon with with Surprise Weapon or Hidden Weapon.",
+  "Versatile": "Can be added to a 1h weapon from a group that also has an option to be a 2h weapon (ie Axe, but not small weapons). Increases the burden of the weapon by 1, but the weapon can be used as either a one-handed or two-handed weapon. Must declare which version you are using at the start of your turn, before you making any attacks with this weapon.",
+  "Perfect Edge": "An accuracy roll of 20 gains Sure Hit. If you roll a 20 and choose to have this apply, any Full Pierce is removed from the attack.",
+  "Momentum": "After downing or killing an enemy, you may Sidestep up to your speed towards another enemy as part of that action.",
+  "Gathering II": "This weapon gives a +1 bonus to gathering rolls its used in. Stacks with Gathering mod.",
+  "Barrier Weaving": "When you apply a Shield to an ally or yourself, your shield is treated as if the stat it scales off is 1 higher. (If it doesn’t scale off a stat, there is no effect)",
+  "Burning Weapon": "The first basic attack made with this weapon each round inflicts Burning 18 to the target on damage until the start of your next turn.",
+  "Slowing Weapon": "The first basic attack made with this weapon each round slows the target on damage until the start of your next turn.",
+  "Thundering Weapon": "The first basic attack made with this weapon each round inflicts Static 18 to the target on damage.",
+  "Conductor": "When this weapon deals Lightning damage against a soaked target, it gains Half Pierce.",
+  "Shining Weapon": "Your weapon emits a bright light in a 60ft radius. Can be enabled or disabled for 1 AP.",
+  "Healer Weapon": "When you heal an ally or yourself, you heal as if your power (or focus, agility or toughness if the heal scales off those) was 1 higher.",
+  "Undead Slayer": "When this weapon deals holy damage, it always deals Full Pierce damage against undead unless the undead resists Holy damage.",
+  "Shielding Healer": "When you cast a healing spell that costs mana, the target(s) of your spell gain Temporary HP equal to your Toughness until the start of your next turn.",
+  "Pushing Weapon": "The first basic attack made with this weapon each round pushes the target back 10ft on damage.",
+  "Stealth Weapon": "The first attack of an encounter does not break stealth if made with this weapon.",
+  "Darkness Weapon": "If the first basic attack on your turn made with this weapon deals damage, you may immediately hide from the target (but not other enemies) even if you’re not in cover.",
+  "Soaking Weapon": "The first basic attack made with this weapon each round applies Soaked 6 on damage. This lasts until the target takes Lightning damage.",
+  "Aerial Supremacy": "You gain +1 accuracy against flying creatures.",
+  "Aerial Takedown": "If you damage a flying creature and it would lose altitude from taking damage, the altitude they lose is doubled. Insectoid (Fae Cicada Shell):",
+  "Dazing Strike": "If your first basic attack of a round deals damage, the target becomes Dazed.",
+  "Distracting Strike": "If your first basic attack of a round deals damage, the target loses any concentration effect they have. Plant Materials (Yggdrassil Seed):",
+  "Vine Grab": ": If your first basic attack of a round deals damage to an enemy that's slowed, that target becomes rooted until the start of your next turn. Poison Materials (Toxic Core):",
+  "Poison Weapon": "You deal Poison damage with this weapon.",
+  "Venom Drip": "You deal 1 Full Pierce Earth(Poison) damage on hit. (This extra damage does not trigger effects that normally trigger on damage).",
+  "Poisoned Sheath": "You may apply a poison to your sheath. When you draw the weapon, the poison is automatically applied to the weapon. Gravity Materials (Gravity Orb):",
+  "Gravity Disruption": "When you deal damage to a target with this weapon, the target suffers a -4 penalty to all ranged attacks until the start of your next turn. Can only be added to a melee weapon and does not apply when the target you were attacking with the weapon was more than 10ft away from you.",
+  "Sticky Weapon": "Once per turn when you make a basic attack against an enemy you may choose to have your weapon stick to them on hit. While you are stuck to them, you move along with them if the target chooses to move unless they spend 2 AP to remove the weapon from you. While stuck to the target, the weapon cannot be used to make attacks. Can only be added to a melee weapon.",
+  "Ceremonial Armor": "You gain +10 bonus to negotiation and intimidation checks, but automatically fail any stealth checks.",
+  "Cast Off Design": "After using the Block action, you may spend 0 RP to cast off the armor immediately unequipping it. The armor becomes Broken until repaired.",
+  "Hidden Armor": "This armor looks like normal clothing to other creatures (which may make you look more vulnerable than you are).",
+  "Ki Concealment": "Requires Manaweave Frame mod. While wearing this armor you gain presence concealment. Spending any mana immediately removes presence concealment. After losing presence concealment, you can’t regain it until you rest for the day.",
+  "Mana Barrier": "Requires Manaweave Frame mod. While putting on this armor, your mana and max mana is set to 0. For each mana you lose thanks to this effect, you gain 7 temporary HP. When you would regain mana or HP from resting, this temporary HP regenerates (up to a max of what you started with at the start of the arc)",
+  "Sensory Suit": "This armor boosts the range of Mind Connection and Scry by 10x.  Also reduces the mana cost of Psychometry by 1.",
+  "Barrier": "This armor provides no passive guard bonus, but reduces the Initiative penalty by 2 and the Evasion/Dodge penalty by 4. When taking the Block action, you still receive the normal bonus the armor would provide.",
+  "Protective Coating": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but only gives the passive guard increase. When taking the Block action, it does not gain an increased guard (though any other bonuses to your Block such as your Toughness still apply).",
+  "Manaweave": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2. but reduces the wearer's current and maximum mana by 3 when equipped. Cannot be equipped if it would reduce the mana below 0.",
+  "Quick Channel Layer": "Your maximum mana is increased by 1 while wearing this armor.",
+  "Fire Armor": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but you take double damage from Water damage.",
+  "Refractory Plates": "You become immune to Burning and natural heat effects.",
+  "Sunfire Infusion": "All creatures ending their turn next to you take Light Fire damage.",
+  "Turbulent Air Layer": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but the bonuses of this armor only apply against ranged attacks.",
+  "Wind's Blessing": "After you Dodge, you gain +10ft of movement speed until the end of your next turn.",
+  "Cloud Pillow": "When you would take falling or pushback damage, you treat the distance you would fall as 30ft lower.",
+  "Aerolevitation Effect": "You may Hover.",
+  "Lightning Armor": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but you take double damage from Earth damage.",
+  "Static Armor": "Anyone ending their turn next to you is afflicted with Static 12 that triggers at the end of their next turn.",
+  "Franklin Badge": "Any attack dealing Lightning damage that targets an ally within 30ft of you and doesn’t include you as a target suffers a -5 penalty to Accuracy.",
+  "Lightning Reprisal": "The first time each round you take damage from a Heavy attack in melee, you may make a Light attack against the attacker.",
+  "Shadow Buoyancy": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2 during the night.",
+  "Light Absorbing Layer": "You gain +5 stealth during the night (doesn’t stack with cloak).",
+  "Condensation Layer": ": Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but you take double damage from Lightning damage and you are considered permanently soaked.",
+  "Bubble Flow Armor": "You gain a swim speed of 20ft and can hold your breath for twice as long.",
+  "Galilean Latticing": "You may walk on water as if it was normal ground.",
+  "Fog Plates": "You gain a +4 bonus to your Dodge.",
+  "Ice Armor": ": Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but you take double damage from Fire damage.",
+  "Permafrost Mantle": "Enemies within 5ft of you are slowed. This slow is applied during a movement if they walk within 5ft of you. Lasts until they are no longer within 5ft of you, but it applies for the entire movement if leaving the range.",
+  "Seismographic Reflex Layer": "You gain 20ft of Tremorsense.",
+  "Rock Plates": "You gain a +8 bonus to your Block.",
+  "Luxflow Coating": "You radiate a bright light that illuminates up to 60ft away.",
+  "Triboluminescent Plates": "Undead creatures that deal damage to you take Light Holy damage in return. Aetherplumes (feathers/wings with high magic concentration.  Tengu/Harpy/Fae etc):",
+  "Tengu Armor": "Your movement speed increases by 5ft while hovering or flying.",
+  "Aerodynamic Glider": "You may spend 1 RP to glide (as per the aeromancer ability) Phoenix Materials (Phoenix Core):",
+  "Trauma Heat": "Once per round, when you drop to 0 or lower HP while above 0 HP, you may immediately revive at 1 HP. You still gain an injury. Gravity Materials (Gravity Orb):",
+  "Repulsive Sheeting": "When you push or pull a target, you may push or pull them for an additional 5ft.",
+  "Anti-Terror Field": "You gain a +4 bonus to your evasion against ranged attacks, but you cannot make any ranged attacks yourself (they automatically miss). Plant (Ygdrassil Seed):",
+  "Dryad Bark": "You can move through natural difficult terrain without losing movement.",
+  "Resinosis": "When you take the Block action against an enemy attack, you heal for 3 HP.",
+  "Ionic Field": "Your astra corruption resistance is increased by 1. Insectoid (Fae Cicada Shell): Hive Mind (A mod 35, 1000 Insectoid Polarity): You gain a +1 to initiative for every allied creature (including yourself) wearing an armor with this mod (max +3).",
+  "Bee Armor": "The first time each combat you take damage from an attack, the attacker becomes Dazed as bees attack it. Living Armor (B mod 80, 4000 Insectoid Polarity): The first time each combat you take damage from a melee attack, you release a swarm of insects in a 5ft radius around you. The swarm remains in the same spot and any creature other than you ending its turn inside of it takes 6 full pierce damage. Undead (Soulstone):",
+  "Reanimated Bone": "When you are downed, attacks against you do not gain Full Pierce as your armor actively protects you.",
+  "Hands of Ptah": "While you are downed, a necromantic hand activates on your armor, performing emergency medical aid, you regain 2 HP per turn.",
+  "False Bone Layer": "Critical hits against you do not gain Full Pierce (but still do max damage)",
+  "Slippery": "You automatically escape from the first grapple effect against you each encounter.",
+  "Sticky": "You gain Spider Climb while wearing this armor (as per spiderfolk racial) Poison Materials (Toxic Core)",
+  "Poison Inlay": "You may apply a poison to this armor as a Rest action. When you are hit by a melee attack, the poison explodes outwards and automatically triggers on the attacker as if you had dealt damage to them.",
+  "Poison Resistance": "You gain 5 DR against Poison damage.",
+  "Double Barrel": "The artifice can hold up to 2 shells. You still reload 1 shell at a time.",
+  "Triple Barrel": "The artifice can hold up to 3 shells. You still reload 1 shell at a time. Requires Double Barrel on the artifice.",
+  "Quadruple Barrel": "The artifice can hold up to 4 shells. You still reload 1 shell a time. Requires Triple Barrel on the artifice.",
+  "Quintuple Barrel": "The artifice can hold up to 5 shells. You still reload 1 shell a time. Requires Quadruple Barrel on the artifice.",
+  "Advanced Melding": "The burden cost of this artifice is reduced by 1, to a minimum of 0, if you have at least 1 other artifice with this mod in your combat burden. Only takes effect once, even with 3+ items with this mod. Does not work on artifice weapons that are their own weapon already, such as power gauntlets.",
+  "Superior Melding": ": The burden cost of this artifice is reduced by 1, to a minimum of 0, if you have at least 1 other artifice with this mod in your combat burden. Only takes effect once, even with 3+ items with this mod. Does not work on artifice weapons that are their own weapon already, such as power gauntlets. Requires Advanced Melding mod on the artifice.",
+  "Perfect Melding": ": The burden cost of this artifice is reduced by 1, to a minimum of 0, if you have at least 1 other artifice with this mod in your combat burden. Only takes effect once, even with 3+ items with this mod. Does not work on artifice weapons that are their own weapon already, such as power gauntlets. Requires Superior Melding mod on the artifice.",
+  "Cross Peen Hammer": "When crafting two of the same one-handed weapon with the same mods and materials, you may use double materials and only use one crafting attempt to make a pair of weapons.",
+  "Westrian Style Tool": "You no longer roll dice and instead take 5 for every d10 crafting roll.",
+  "Sylvan Style Tool": "While crafting points are 30 or less, you gain a +1 bonus to your crafting rolls.",
+  "Kiraran Style Tool": "You may reroll any one dice when crafting immediately after determining the result.",
+  "Expertise": "You gain a +1 bonus to crafting checks with a specific armor group, weapon group (or tools) or any other valid expertise."
+ },
+ "items": {
+  "adjustable-lens-refractor-gun": {
+   "Elemental Lens": "Instead of Arcane, the weapon may deal a different element of your choosing"
+  },
+  "aerial-staff--sparrow-model-": {
+   "Jury-Rigged Cannon": "Adds a small star cannon that fires an arcane blast from the front that deals heavy attack damage for 2 AP with 120ft Range.",
+   "Medivac Rig": "Allows a downed ally to be hauled on the underbelly of the staff. But reduces the speed by 10ft while hauling.",
+   "Jury Rigged Shield": "Adds a shield generator, granting the airship a 15 HP shield. This shield can be switched on and off, but can only be replenished by changing the fuel cell.",
+   "Sorthen Shield Generator": "Requires Jury-Rigged Shield. Installs a Sorthen style Shield Generator increasing the shield value by 15 HP.",
+   "Upgraded Airship Engine": "Increases the speed to 50ft but adds Line Movement: The airship may only move in a straight line when making a movement action."
+  },
+  "anti-air-weapon-sight": {
+   "Holographic Optic": "Increases the accuracy against flying targets by +1",
+   "Wide Targeting": "The accuracy bonus is reduced by 2, but it now works on all targets.",
+   "Aerial Targeting Mode": "The effect now lasts until the end of the encounter or until deactivated by spending 2 AP. However, attacks against non-flying targets suffer a -4 penalty.",
+   "Wing Outlining": "The first attack made after activation applies the downburst effect (See: Downburst ability)"
+  },
+  "armor--clothing-": {
+   "Mage Robes": "You gain +1 maximum mana, but lose 1 guard and 2 block.",
+   "Cloud Robes": "Your movement speed is increased by 5ft.",
+   "Battle Casting": "The first spell you cast each turn does not provoke attacks of opportunity.",
+   "Reinforced Clothing": "This clothing can benefit from material bonuses, but its burden is increased by 1."
+  },
+  "armor--heavy-": {
+   "Beacon Armor": "Unarmored allies (except armor plates) within 40ft of you gain +1 guard.",
+   "Deflecting Armor": "An accuracy roll against you that rolls a 1 always misses.",
+   "Weighted Greaves": "You become immovable while on the ground.",
+   "Titan Armor": "You are treated as having a size category 1 step higher (maximum Large).",
+   "Berserker Armor II": "This armor reduces your RP by 3, but does not reduce your evasion and dodge.",
+   "Fortress": "Reduces the Initiative penalty by 1 and the Evasion/Dodge penalty by 2, but it also reduces the movement speed by 5ft."
+  },
+  "armor--light-": {
+   "Agile Weave": "No armor penalty, but no guard/block bonus. You gain +1 evasion (but no additional dodge). This also takes up your Frame mod slot.",
+   "Acrobat's Harness": "You gain +10 bonus to athletics while wearing this armor.",
+   "Camo": "Pick a color theme. You gain +5 to stealth when hiding in environments of that theme, but -5 when hiding elsewhere. A GM may approve new environments, defaults are: green camo (jungle, woodland, prone in grass), yellow camo (desert, savannas), white camo (snow, arctic), dark camo (night, caves, rocky terrain), blue camo (rivers or oceanic)",
+   "Porcupine Hide": "Enemies grappling you take 1d6 full pierce damage. When escaping a grapple, you also deal 1d6 full pierce damage to the creature grappling you.",
+   "Sleek": "If you spend RP dodging an attack of opportunity, you may dodge any other attacks of opportunity made in reaction to the same action at the first for free.",
+   "Padded": "Increase guard vs light attacks by 1, doesn't affect heavy damage.",
+   "Mistweave": "You no longer provoke attacks of opportunity, but all attacks against you gain Half Pierce."
+  },
+  "armor--medium-": {
+   "Chain Links": "Increases the block gained from this armor by 4.",
+   "Flexible Armor": "When you take the Dodge action, your next Block gains a +8 bonus. When you take the Block action, your next Dodge action gains a +4 bonus. Lasts until the start of your next turn. Can activate multiple times per turn, but does not stack.",
+   "Berserker Armor": "This armor reduces your RP by 2, but does not reduce your evasion and dodge."
+  },
+  "artifice-water-purifier": {
+   "Quick Filter": "Can filter up to 4 liters of water in 1 minute.",
+   "Natural Use": "When used during a rest action, the filter provides half the food needed for a basic rest (20u) provided a camping kit is set up."
+  },
+  "astra-guidance-beacon": {
+   "Increased Effect": "Now boosts the spirit core values of your allies by 1000 instead of 500.",
+   "Exousiai Protection": "You and allies affected by this device ignore 1 level of astra corruption increase caused by Exousiai type fiends."
+  },
+  "axe--one-handed-": {
+   "Reinforced Langet": "This weapon cannot be disarmed.",
+   "Bearded Extension": "Wild Swing now ignores guard, but the damage is reduced to 2 (light attack) or 4 (heavy attack).",
+   "Rotational Stability": "If a target moves away from you when you attack with this weapon and your next attack this turn is a throwing attack using this weapon against that target, that attack gains lock on.",
+   "Boomerang Wing": "After using a throwing attack with this weapon, you can return the weapon to your hand for 0 RP.",
+   "Lancebreaker": "You gain a +2 Lancebreaker Power bonus against enemies wielding polearms or lances."
+  },
+  "axe--two-handed-": {
+   "Reinforced Langet": "This weapon cannot be disarmed.",
+   "Bearded Extension": "Wild Swing now ignores guard, but the damage is reduced to 2 (light attack) or 4 (heavy attack).",
+   "Rotational Stability": "If a target moves away from you when you attack with this weapon and your next attack this turn is a throwing attack using this weapon against that target, that attack gains lock on.",
+   "Boomerang Wing": "After using a throwing attack with this weapon, you can return the weapon to your hand for 0 RP.",
+   "Lancebreaker": "You gain a +2 Lancebreaker Power bonus against enemies wielding polearms or lances."
+  },
+  "binoculars": {
+   "Quick Focus Dial": "The penalty for things within 60ft is reduced from -10 to -5.",
+   "Night Mode": "Looking through the binoculars gives you Nightvision up to 120ft.",
+   "Range Finder": "When looking through this item, you can tell how far objects are from you.",
+   "Anti-Illusion Lens": "You gain a +10 bonus to determine if something is an Illusion or not."
+  },
+  "blaster-weapon": {
+   "Quick Swap": "The activation cost is reduced to 0 AP.",
+   "Lightweight": "Reduces the Burden of this artifice by 1.",
+   "Sniper Mode": "The range of the ranged mode is increased to 240ft.",
+   "Channeling Blasts": "Your ranged mode also counts as a channeling weapon for the purpose of casting spells through it, as if the weapon it is attached to was a channeling weapon."
+  },
+  "bludgeoning-weapon--one-handed-": {
+   "Flexible Handle": "When dealing damage to a target, the minimum damage you deal is always 2. (this does not trigger on damage effects if damage would be 0 otherwise).",
+   "Chain Flail": "Cannot be defended against by 0 RP actions. Attacks made with this weapon do not count as consuming 0 RP actions.",
+   "Weighted Poll Upsetting": "When making 3 separate attacks against a target, the third attack you make with “Weighted Poll Upsetting” knocks the target back 10ft on damage.",
+   "Flanged Head": "When you crit with this weapon, the damage is still maximized even against blocking targets."
+  },
+  "bludgeoning-weapon--two-handed-": {
+   "Flexible Handle": "When dealing damage to a target, the minimum damage you deal is always 2. (this does not trigger on damage effects if damage would be 0 otherwise).",
+   "Chain Flail": "Cannot be defended against by 0 RP actions. Attacks made with this weapon do not count as consuming 0 RP actions.",
+   "Weighted Poll Upsetting": "When making 3 separate attacks against a target, the third attack you make with “Weighted Poll Upsetting” knocks the target back 10ft on damage.",
+   "Flanged Head": "When you crit with this weapon, the damage is still maximized even against blocking targets."
+  },
+  "bow--two-handed-": {
+   "Recurve": "Range increased by 60ft.",
+   "Shortbow": "Range reduced to 120ft but when making a basic  light attack, you can make a second light attack for 0 AP once per turn. This counts as your dual wield attack.",
+   "Bodkin Arrows": "Grants Hollow Blow: When attacking and hitting a target, you deal additional damage if they Block. This damage is 2 on a Light/Precise attack or 4 on a Heavy attack.",
+   "Broadhead Arrows": "Deals +1 damage against light armor or unarmored targets.",
+   "Blunthead Arrows": "First basic heavy attack per round dazes targets on damage."
+  },
+  "buster-weapon": {
+   "Powerful Explosion": "Increases the damage bonus by +1",
+   "Optimized Explosion": "Increases the accuracy bonus by +1",
+   "Angel Type": "When an attack enhanced by this artifice deals damage, knock the target back 5ft.",
+   "Launch Step": "You can use this before making an attack to move 10ft before making an attack that benefits from this artifice.",
+   "Shieldbreaker": "The attack enhanced by the artifice also gains the Shieldbreaker keyword."
+  },
+  "calibretto-device": {
+   "Bag Clip": "The device can be used by attaching it to a belt or bag and no longer requires to be held in your hands.",
+   "Item Checker": "You can use the device to check objects to determine if they are corrupted with astra or safe to touch.",
+   "Increased Capacity": "When activated, the device now remains active for a week on the same shell.",
+   "Radar": ": While active, points to the highest source of non-ambient astra within a 1 mile range."
+  },
+  "cannon--two-handed-": {
+   "Big Boom": "The light attack is made against all enemies within 10ft of the target instead of 5ft.",
+   "Incendiary Shell": "The Light attack deals Fire damage and ignites flammable materials in its radius.",
+   "Mobile Artillery": ": After moving, your range is reduced to 120ft instead of 60ft.",
+   "Reinforced Frame": "You may use the cannon as a melee weapon that deals Physical(Bludgeoning) damage. Only does 4d6 heavy damage when used as a melee weapon.",
+   "Side Barrel": "You may use the cannon a second time in a round, however this second attack can only be a light attack.",
+   "Snipe": "If you did not move this turn or the previous turn you gain a +1d4 bonus to your accuracy roll on attacks made with this weapon. Bigger Pies (80): When you fire a pie through the launcher, you may deal 1 sure hit full pierce damage to all other targets within 5ft of the target.",
+   "IFF Off": "Your basic attack splash now hit all targets within range instead of only enemies.",
+   "Pie Launcher": "Pie toss can be fired through the weapon to gain the increased range (does not affect the damage or transfer alloys)."
+  },
+  "chainsaw-artifice--two-handed-weapon-": {
+   "Multi Gear Chaindrive": "On activate. Heavy attacks grant 2 stacks instead of 1.",
+   "Turbo Engine": "If a heavy attack is the first attack used, it grants the damage stack immediately.",
+   "Efficient Gathering": "If the artifice was used during combat, gain a +10 bonus to Gather Parts Encounter Conclusion action for that combat.",
+   "Redline Engine": "The activation ability begins at +2 stacks, but the artifice cannot use the empower ability again after it ends until the end of the arc."
+  },
+  "counter-magic-shackles": {
+   "Anti-Teleport": "The wearer cannot teleport, even if the teleport would cost no mana..",
+   "Zero Suppression": "Lowers the target’s visible aura to 0 while wearing these, making them difficult to locate by magical means."
+  },
+  "crossbow--one-handed-": {
+   "Wrist-mounted": "One handed crossbow only, range lowered to 30ft. Is mounted on your wrist and is always considered drawn + can hold a weapon in that hand.",
+   "Windlass Arbalest": "Two handed crossbow only. Basic attacks with this weapon gain full pierce within 30 ft. However must be reloaded for 2 AP or 1 RP before it can be used again.",
+   "Extended Draw": "Your armor piercing effect range is increased to 60ft. If combined with a wrist mounted crossbow, increases the range but not the armor piercing range to 60ft.",
+   "Repeater": "When you make 3 attacks with this weapon in 1 turn, you may make an additional light attack."
+  },
+  "crossbow--two-handed-": {
+   "Wrist-mounted": "One handed crossbow only, range lowered to 30ft. Is mounted on your wrist and is always considered drawn + can hold a weapon in that hand.",
+   "Windlass Arbalest": "Two handed crossbow only. Basic attacks with this weapon gain full pierce within 30 ft. However after every attack (even without the benefit), it must be reloaded for 2 AP or 1 RP before it can be used again. This attack has the augment keyword when it gains full pierce.",
+   "Extended Draw": "Your armor piercing (and arbalest full pierce) effect range is increased to 60ft.",
+   "Repeater": "When you make 3 attacks with this weapon in 1 turn, you may make an additional light attack."
+  },
+  "dueling-weapon--one-handed-": {
+   "Spade Lunga": "When moving at least 40ft towards an enemy, increases the range of your next attack made with this weapon by 5 ft.",
+   "Ornate Blade": "Moving into the target’s threatened zone the first time in a turn counts as 1 attack for the requirement to activate Dueling.",
+   "Paired Duelers": "When wielding two dueling weapons with paired duelers, your offhand extra attack counts as one attack for your dueling bonus on your main hand weapon.",
+   "Passato Sotto": "You may make 1 Heavy attack with this weapon and still gain the dueling effect.",
+   "Ferrobri Grip": "Dueling weapon passive changes to Aggressive Dueling: When attacking a single enemy 3 times with this weapon in 1 turn, your next basic attack with this weapon this turn has its cost reduced by 1 AP. Once per round."
+  },
+  "elemental-weapon-artifice": {
+   "Early Deactivation": "You may spend 0 RP to deactivate the effect.",
+   "Quick Activation": "The activation cost is reduced to 0 AP.",
+   "Secondary Element": "The artifice is made with two predetermined elements instead of 1. When activating it, you may choose which element is used.",
+   "Ranged Mode": "This artifice can be attached to ranged weapons as well.",
+   "Elemental Burst": "While active, you may expend the shell and 1 AP to make a Heavy attack with the weapon. Elemental Mastery (80): When activated, the artifice instead changes to an element the wielder has mastered (their choosing). Still has the base element too as option."
+  },
+  "eye-lens": {
+   "Zoom In": "Can function like binoculars.",
+   "Focused Lens": "When you deal damage with a mystic eye ability, you make immediately make a Light attack against one of the targets you damaged with it. This counts as your dual wield attack.",
+   "Silver Lens": "Mystic Eye attacks made with this lens count as silver."
+  },
+  "fire-robe": {
+   "Quick Activation": "The activation cost is reduced to 0 AP.",
+   "Fireproof": "While it's active, you are immune to Burning.",
+   "Increased Protection": "The damage reduction is increased to 10."
+  },
+  "gauntlets--one-handed-": {
+   "Simple Design": "You are considered proficient with these even if you normally would not be.",
+   "Red Gauntlets": "For every AP spent on basic movement, you gain +2 damage to your next attack with this weapon (up to a maximum of +4 dmg).",
+   "Grip Design": "You may wield a Two-Handed weapon with the hand this gauntlet is on. Any other actions that require a free hand normally such as grabbing a potion not doable.",
+   "Martial Mastery": "You may have your attacks deal Elemental damage instead of physical based on your mastered classes. Bajiquan for Fire, Monk for Water, Sky Talon for Wind and Still Stone for Earth, Transcendent Lightning for Lightning, Five Harmonies for Holy, Black Oath for Dark.",
+   "Brown Gauntlets": "While wearing this item, you gain a +4 Shield bonus to your block. This stacks with Still Stone Style's Shielding Fist, but not with other shields.",
+   "Wrist Claw": "While wearing this item, you may still hold an item in that hand as if it was empty.",
+   "Katar": "Grants Nimble. Nimble: After attacking an enemy with a light attack on your turn, you may move 5ft. This movement only provokes attacks of opportunity if that movement would put you out of melee range of the target.",
+   "Black Gauntlets": "When dealing damage with this weapon, you may take true damage equal to the damage dice (ie 6 on a d6) to maximize the damage of one die."
+  },
+  "giant-scissors--two-handed-": {
+   "Elegant Executioner": "Reduces Vivisect AP cost by 1.",
+   "Diamond Tip": "Shearing now always deals +1 damage regardless of armor.",
+   "Executioner's Blade": "Heavy basic attacks strike an adjacent target in range with a light attack. Once per round.",
+   "Separation": "You can separate the Giant Scissors into two pieces for 0 AP (Quick), allowing you to dual wield them. You can use Separation again to put them back together. The passive changes from Shearing to Shearing Flurry which instead grants +1 accuracy to unarmored targets."
+  },
+  "grappling-hook-artifice": {
+   "Drive By Model": "The Grappling Hook Artifice loses the ability to move allies, but you can now make attacks at any point while being reeled as long as you have actions. While you are moving in this way, you do not provoke attacks of opportunity.",
+   "Scorpion Tip": "The range of the Grappling Hook Artifice is lowered to 20ft, but can be used to make a light attack that does exactly 1 damage with full pierce. On damage, the target can be pulled up to 20ft towards the user.",
+   "Swing Engine": "The grappling hook artifice can be used to swing from the point the pin is embedded instead of pulling straight towards it, in addition the rope length is increased by 20ft. The pin automatically detaches and reels in when you move to your destination for smooth traveling.",
+   "Emergency Escape Reel": "You may also fire this using 1 RP.",
+   "Heavy Tow Line": "The grappling hook can support 1 additional ally to move with you.",
+   "Belt Attachment": "The Grappling Hook Artifice is modified to be mounted onto the belt, allowing for operation while wielding items in both hands via a switch mounted on the arm.",
+   "Safety Hook": "You and your allies movement with this artifice is considered a sidestep."
+  },
+  "heavy-blade--two-handed-": {
+   "Overwhelming Edge": "You cannot be disarmed or parried.",
+   "Wide Blade": "When you are wielding this in two hands and don’t make an attack with this weapon on your turn you can grant yourself or an adjacent ally low cover against ranged attacks for 0 RP until the start of your next turn. Can only use this once per round.",
+   "Quakemaker": "Critical hits render the target prone regardless of if they hit or not.",
+   "Gutsy Blade": "The crit threshold of this weapon is lowered by 5, but you no longer maximize damage dice or gain full pierce on a crit.",
+   "Executioner's Blade": "Heavy basic attacks strike an adjacent target in range with a light attack. Once per round.",
+   "Unreasonable Mass": "Heavy attacks gain 1 additional dice in damage (5d6-&gt;6d6) but suffer -1 accuracy on all attacks."
+  },
+  "hori": {
+   "Aerodynamic Design": "Boomerang/Return effects cannot be used with this. For 1 RP you can throw the dagger, making a light ranged attack.  On damage, the target is slowed until the end of its next turn.",
+   "Compact Ergonomics": "When your other hand is free and you take a movement action that costs RP, that movement range is increased by 5ft.",
+   "Parrying Dagger": "If you don’t use this weapon to make an attack during your turn, you gain a +4 bonus to your Block until the start of your next turn. You also gain a +4 bonus to your ‘damage’ roll when using the Parry ability.",
+   "Flat Pommel": "When your other hand is free, you use your free hand to push the target into targets increasing melee heavy attack damage to 5d6.",
+   "Poisoner Weapon": "Applying poison to this weapon costs -1 AP (min 0).",
+   "Butterfly Knife": "Your first light attack each round with this weapon gains Trick Attack, but it can no longer make Heavy attacks.",
+   "Ring Pommel": "If you make a heavy attack that the target defends against, you do not trigger attacks of opportunity from them until the start of your next turn."
+  },
+  "katana--one-handed-": {
+   "Mastercrafted Saya": "The first single target attack made with this weapon per combat also draws the weapon simultaneously.  This first attack has its crit threshold lowered by 1.",
+   "Sori Curve": "When you roll a 1 on an accuracy roll, you can reroll the attack. Your target(s) can make an opportunity attack, even with a ranged weapon.  This opportunity attack does not provoke other opportunity attacks.",
+   "Beneri Special": "Grants a +1/+1 Bonus, doesn’t stack with material bonuses. Weapon shatters, becoming irreparably broken on a 1 roll for an accuracy roll.",
+   "Equilibrium Forging": "You do not roll damage on this weapon, but deal slightly higher than average damage. Instead it deals 6 damage on light attacks or 15 damage (1h) or 19 damage (2h). Critical strikes apply maximum damage as normal.",
+   "Hamon Line": "Grants Keen II lowers the crit threshold by 2 (replaces Keen).",
+   "Swallow's Edge": "The crit threshold decreases by 1 for each attack made this turn with a Swallow’s Edge weapon. This bonus resets if you land a critical hit. If both your mainhand and offhand weapon have this mod, the effect aplies to both weapons at the same time."
+  },
+  "katana--two-handed-": {
+   "Mastercrafted Saya": "The first single target attack made with this weapon per combat also draws the weapon simultaneously.  This first attack has its crit threshold lowered by 1.",
+   "Sori Curve": "When you roll a 1 on an accuracy roll, you can reroll the attack. Your target(s) can make an opportunity attack, even with a ranged weapon.  This opportunity attack does not provoke other opportunity attacks.",
+   "Beneri Special": "Grants a +1/+1 Bonus, doesn’t stack with material bonuses. Weapon shatters, becoming irreparably broken on a 1 roll for an accuracy roll.",
+   "Equilibrium Forging": "You do not roll damage on this weapon, but deal slightly higher than average damage. Instead it deals 6 damage on light attacks or 15 damage (1h) or 19 damage (2h). Critical strikes apply maximum damage as normal.",
+   "Hamon Line": "Grants Keen II lowers the crit threshold by 2 (replaces Keen).",
+   "Swallow's Edge": "The crit threshold decreases by 1 for each attack made this turn with a Swallow’s Edge weapon. This bonus resets if you land a critical hit. If both your mainhand and offhand weapon have this mod, the effect aplies to both weapons at the same time."
+  },
+  "lance--one-handed-": {
+   "Crown Tip": "The first basic attack per round made immediately after moving 50ft or more, dismounts mounted targets on damage.",
+   "Demi-Lance": "Can be used while dismounted as a normal spear, but loses its movement max damage bonus unless mounted.",
+   "Justice Lance": "Your movement speed is capped at 25ft while this is in your burden. This weapon has an additional 5ft range and a 15ft threaten range.",
+   "Shield Lance": "When spending at least 3 AP to move in one turn, your next basic defense before the start of your next turn costs 1 less RP."
+  },
+  "light-sword--one-handed-": {
+   "Single Edge": "Nimble instead becomes Nimble Rotation. After attacking you can no longer move away from the enemy, but you can sidestep to anywhere adjacent to the enemy taking the most direct path possible when making a melee attack. This cannot be used if the target is reduced to 0 HP from the attack.",
+   "Heroic Emblem": "Grants a +1 power or +1 focus bonus, but cannot gain the benefits from base material bonuses. This bonus is actually 100% from hype.",
+   "Fullering Groves": "Gives Nimble II. After attacking an enemy with a light attack on your turn, you may move 10ft.  This movement only provokes attacks of opportunity if that movement would put you out of melee range of the target.",
+   "Extended Quillons": "Grants +1 to guard when out of RP.",
+   "Weighted Edge": "You may use Nimble (and Nimble II or Nimble Rotation etc if you have those instead) even after making a Heavy or Precise attack.",
+   "Gladius Edge": "When you are struck by a critical hit and you do not defend against it, you can make a 0 RP opportunity attack before the triggering attack. You can spend 1 RP to instead make it a heavy attack.",
+   "Axebreaker": "You gain a +2 Axebreaker Power bonus against enemies wielding axes."
+  },
+  "lightning-rod": {
+   "Telescopic Pole": "The zone increases to 30x30ft.",
+   "Quick Activation": "The activation cost is reduced by 1.",
+   "Shockproof": "While it's active, everyone in the area also gains immunity to Static.",
+   "Increased Protection": "The damage reduction is increased to 10."
+  },
+  "longsword--one-handed-two-handed-": {
+   "Catch Pommel": "When using the Longsword with one hand, once per round you can extend the range of your attack by 5ft.",
+   "War Sword": "Your first basic attack made with this weapon after moving at least 20ft maximizes one damage dice of your choice instead of rolling.",
+   "Bastard Sword": "You gain a +1 Armorbreaker Power bonus against targets in Heavy armor or higher.",
+   "Extended Quillons": "Grants +1 to guard when out of RP.",
+   "Heavy Crossguard": "You retain the Block bonus even while using the weapon with two hands, the block value increases by +4 when wielding with one hand and no other weapon or shield in your other hand.",
+   "Lange Messer": "Grants +1 to guard but increases burden by +1.",
+   "Axebreaker": "You gain a +2 Axebreaker Power bonus against targets wielding axes."
+  },
+  "mana-vision-goggles": {
+   "Mana Sight": "Looking at a target within 30ft automatically reveals their mana %.",
+   "Quick Removal": "Can be removed by spending 3 AP instead of 1 minute.",
+   "Decipher Magic": "When looking at a magic effect, you may attempt to understand it as if using Decipher Magic. Your bonus for this roll is +15, regardless of your reason or magic skill points."
+  },
+  "memory-bubble": {
+   "Infinite Replays": "A person may watch the recording by spending 1 mana rather than using a shell.",
+   "Redacted": "The recorder can mute or censor parts of the memory being recorded. This tampering may fool regular people, but an artifice check of DC20 will reveal tampering has been done."
+  },
+  "musket--two-handed-": {
+   "Range Finder": "You add a range finder to the weapon. This does not increase its range, but does allow you to look through the lens for a +10 perception bonus against things further than 60ft away. In addition, you can tell how far objects are from you when doing this.",
+   "Bayonet": "You may make melee attacks with this weapon that deal Physical(Piercing) damage without provoking attacks of opportunity. These attacks don't do 2h melee damage.",
+   "Long Barrel": "Your weapon gains 240ft range, but you don’t armor pierce when shooting at targets further than 120ft away."
+  },
+  "night-vision-goggles": {
+   "Anti-Flash Shutter": "While this artifice is worn and active, you are protected from being dazed, blinded etc by sudden flashes of light.",
+   "Increased Range": "Increases the range at which these goggles are active by 60ft.",
+   "Darkvision Goggles": "Instead of Nightvision, these goggles give you Darkvision.",
+   "Thermal Fusion Sight": "Adds thermal vision up to 120ft. This cannot detect things hidden by magical means. The sight can not discern a difference in heat once something reaches freezing temperatures."
+  },
+  "northi-lantern": {
+   "Light control": "The distance of light emitted can be any distance up to the normal max.",
+   "Directional Light": "Makes the light directionally forward instead of all around.",
+   "Lumen Sphere": "Increases the light emission to 60ft.",
+   "Bag Clip": "Can be attached to your belt or bag to be used without being held in your hand."
+  },
+  "personal-camouflage-field": {
+   "Vanishing Act": "When you activate the device in combat, you may immediately take the Hide action for -2 AP of its normal cost (min 0).",
+   "Group Veil": "While stationary, you may extend the effect of this device to all medium or smaller creatures within 5ft of you.",
+   "Decoy": "The first time you are attacked while stealthed while this device is active, you automatically dodge the attack.",
+   "Thermal Mask": "Thermal vision and similar heat based detection no longer automatically detects you."
+  },
+  "photon-shield": {
+   "Quick Activation": "The activation cost is reduced to 0 AP",
+   "Photon Dome": "Changes the Photon Shield effect to instead project a dome 5ft around you that grants the shield effect to allies against ranged attacks only.  Does not stack with other equipped shields. Does not stack with other “Photon” modifications. May still choose to activate the original effect of Photon Shield.",
+   "Photon Wall": "Changes the Photon Shield effect to instead to create a stationary wall of light in front of you. This wall disappears when you move. The wall is a 1 way high cover with 20 HP and only allows ranged attacks to pass through it from your side. When you move, the wall is immediately destroyed. Once the wall is destroyed, the shell is expended and ejects from the artifice. May still choose to activate the original effect of Photon Shield.",
+   "Photon Greatshield": "Increases the Burden to 2 and changes the effect of Photon Shield to a Greatshield instead of a regular shield. Reduces your evasion etc like a Greatshield would. You can deactivate the photon greatshield for 0 RP, but doing so ejects the shell and ends the effect."
+  },
+  "pickaxe--one-handed-": {
+   "Reinforced Langet": "This weapon cannot be disarmed.",
+   "Bearded Extension": "Wild Swing now ignores guard, but the damage is reduced to 2 (light attack) or 4 (heavy attack).",
+   "Rotational Stability": "If a target moves away from you when you attack with this weapon and your next attack this turn is a throwing attack using this weapon against that target, that attack gains lock on.",
+   "Boomerang Wing": "After using a throwing attack with this weapon, you can return the weapon to your hand for 0 RP.",
+   "Lancebreaker": "You gain a +2 Lancebreaker Power bonus against enemies wielding polearms or lances."
+  },
+  "pickaxe--two-handed-": {
+   "Reinforced Langet": "This weapon cannot be disarmed.",
+   "Bearded Extension": "Wild Swing now ignores guard, but the damage is reduced to 2 (light attack) or 4 (heavy attack).",
+   "Rotational Stability": "If a target moves away from you when you attack with this weapon and your next attack this turn is a throwing attack using this weapon against that target, that attack gains lock on.",
+   "Boomerang Wing": "After using a throwing attack with this weapon, you can return the weapon to your hand for 0 RP.",
+   "Lancebreaker": "You gain a +2 Lancebreaker Power bonus against enemies wielding polearms or lances."
+  },
+  "pistol--one-handed-": {
+   "Blast Diverter": "Once per turn, attacks from this weapon cause the target to only be able to make heavy attacks of opportunity  against you until the end of your turn.",
+   "Double Action": "Accuracy is reduced by 3, but attacks with this weapon reduce the target’s ranged accuracy by 1 (stacking) until the start of your next turn regardless of if they hit or not.  Doesn’t affect boss enemies.",
+   "Match Barrel": "The range of this weapon is increased by 60ft.",
+   "Beavertail Grip": "When making a light attack at a target you can move 10ft in a straight line towards them."
+  },
+  "polearm--one-handed-": {
+   "Heavy Broadhead": "Increases thrown power by 2 but boomerang/returning effects no longer work.",
+   "Shepherd's Lanza": "Fall damage is reduced by 60ft while wielding.",
+   "Halberd": "This weapon also gains the axe passive (Wild Swing).",
+   "Winged Lugs": "Increase guard by 1 and Block by 2 and reduce evasion by 1 while wielding.",
+   "Fullpike": "Polearm weapon passive changes to +10ft and your threatened range becomes 5-15 ft. Having this item in your burden reduces your max RP by 1.",
+   "Yari Point Taper": "After making a basic heavy attack, strike another target immediately behind the first with a light attack.",
+   "Swordbreaker": "You gain a +2 Swordbreaker Power bonus against targets wielding light blades and heavy blades."
+  },
+  "polearm--two-handed-": {
+   "Heavy Broadhead": "Increases thrown power by 2 but boomerang/returning effects no longer work.",
+   "Shepherd's Lanza": "Fall damage is reduced by 60ft while wielding.",
+   "Halberd": "This weapon also gains the axe passive (Wild Swing).",
+   "Winged Lugs": "Increase guard by 1 and Block by 2 and reduce evasion by 1 while wielding.",
+   "Fullpike": "Polearm weapon passive changes to +10ft and your threatened range becomes 5-15 ft. Having this item in your burden reduces your max RP by 1.",
+   "Yari Point Taper": "After making a basic heavy attack, strike another target immediately behind the first with a light attack.",
+   "Swordbreaker": "You gain a +2 Swordbreaker Power bonus against targets wielding light blades and heavy blades."
+  },
+  "portable-vacuum": {
+   "Powerful Fan": "Increases the range of which it sucks in by 10ft.",
+   "Fuel Optimization": "When activated, it now lasts until the end of the encounter on a single shell use.",
+   "Airflow Optimization": "Increases the range of which it sucks in by 10ft.",
+   "Backpack Vacuum": "You may carry this artifice on your back and you can activate it without having to draw it. In addition, it moves with you instead of sucking up things only near its activation location."
+  },
+  "power-gauntlets": {
+   "Fine Size": "Removes the -10 penalty for finesse movements while wearing the gauntlets.",
+   "Vault Breaker": "Your attacks deal double damage against objects.",
+   "Artificer's Gloves": "You may hold and use artifices like normal while wearing the gauntlets.",
+   "Finesse Grip": "You may hold and use items or weapons like normal while wearing these gauntlets.",
+   "Heavy punches": "Unarmed attacks made with this weapon deal 5d6 damage instead of 4d6."
+  },
+  "private-communications-device": {
+   "Extra Earplugs": "The device now comes with 3 additional earplugs, letting more people listen in.",
+   "Extra Range": "The range of the device increases from 1 mile to 3 miles.",
+   "Hidden Device": "The device is disguises as a regular object, making it not appear as a private communications device. (Closer inspection or perception checks may still reveal it as such)."
+  },
+  "refractor-gun": {
+   "Elemental Lens": "Instead of Arcane, the weapon may deal a different element of your choosing"
+  },
+  "return-stone": {
+   "Shortened Activator": "Reduces the activation cost by 1 AP.",
+   "Ranged Circuit": "Increases the range by 20ft when used on a downed ally.",
+   "Re-usable": "Can be used more than once, but requires repair in between them. This also takes up 2 C slots.",
+   "Group Escape": "When used, up to 3 other allies within 10ft of you may choose to escape with you. Increases the AP cost by 2, potentially giving it the setup keyword. Re-usable+ (80 points): Can be used more than once. This also takes up 3 C slots."
+  },
+  "saboteur-thread-daggers--one-handed-": {
+   "Compact Ergonomics": "When your other hand is free and you take a movement action that costs RP, that movement range is increased by 5ft.",
+   "Parrying Dagger": "If you don’t use this weapon to make an attack during your turn, you gain a +4 Shield bonus to your Block until the start of your next turn. You also gain a +4 bonus to your ‘damage’ roll when using the Parry ability.",
+   "Flat Pommel": "When your other hand is free, you use your free hand to push the target into targets increasing melee heavy attack damage to 5d6.",
+   "Poisoner Weapon": "Applying poison to this weapon costs -1 AP (min 0).",
+   "Butterfly Knife": "Your first light attack each round with this weapon gains Trick Attack, but it can no longer make Heavy attacks.",
+   "Ring Pommel": "If you make a heavy attack that the target defends against, you do not trigger attacks of opportunity from them until the start of your next turn.",
+   "Rappel": "After you deal damage with a thrown attack with this weapon, you may move up to 30ft towards the target. Can only be done once per round."
+  },
+  "scythe--two-handed-": {
+   "Spinning Dance": "You may move 5ft after making your Heavy attack, but before making your Sweeping Arc attack.",
+   "Long Haft": "You gain +5ft range on your weapon attacks and your threatened range becomes 10ft.",
+   "Rapid Spins": "Your Sweeping Arc can now be used two times per round.",
+   "Focused Spin": "Your Sweeping Arc now instead targets the same creature as the target of your Heavy attack.",
+   "Full Spin": "Your sweeping arc can now target all creatures within weapon range of you."
+  },
+  "set-of-missiles--one-handed-": {
+   "Featherflight": "Range is increased to 60ft, but the remain stealthed mechanic only applies when attacking within 30ft.",
+   "Poison Container": "Poison can be pre-applied to the container and then sealed. Once the lid is opened and a missile is drawn, it is considered to be applied and begins to use up its application limit and duration."
+  },
+  "shell-converter": {
+   "Medium Capacity": "You may also create Medium Shells (costs more Fuel still).",
+   "Increased Production": "You may create two shells instead of 1 (costs more Fuel still).",
+   "Lightweight Design": "This artifice is no longer counted as a kit and can thus be stored easily in non-combat inventory."
+  },
+  "shepherd-s-sling--one-handed-": {
+   "Anti-Goliath": "You gain a +1 Size Power bonus on attacks against creatures that are Large or bigger.",
+   "Explosive Rock": "When making the Overcharge attack, you may deal the extra damage to all creatures within 5ft of the original target. In addition, this extra damage becomes a Light damage roll for all creatures except the original target instead of the flat 9 damage."
+  },
+  "shield": {
+   "Spiked Shield": "You may treat your shield as a One-Handed weapon. You can use it to make an attack and still gain the shield bonus.",
+   "Mirror Shield": "When you are the target of a Mystic Eye ability, you may spend 1 RP to negate the effect on yourself and reflect it back to the user.",
+   "Throwing Shield": "You may throw this shield at an enemy within 30ft to make a ranged attack against it. Afterwards, the shield returns to your hand.",
+   "Shield Formation": "While next to another ally with a shield or greatshield, you gain +1 Guard. (Only actual shields apply)"
+  },
+  "shield--great-": {
+   "Spiked Shield": "You may treat your shield as a One-Handed weapon. You can use it to make an attack and still gain the shield bonus.",
+   "Mirror Shield": "When you are the target of a Mystic Eye ability, you may spend 1 RP to negate the effect on yourself and reflect it back to the user.",
+   "Tower Shield": "The burden of this shield is increased by 1, but it now counts as Low cover for you against ranged attacks.",
+   "Shield Formation": "While next to another ally with a shield or greatshield, you gain +1 Guard. (Only actual shields apply)"
+  },
+  "shock-stick": {
+   "Heavy Baton": "This weapon is now considered a two-handed weapon.",
+   "Long Stick": "You gain +5ft range on your weapon attacks and your threatened range becomes 10ft",
+   "Capture Model": "When dealing damage to a Grunt with a Heavy attack, they are stunned until  the start of your next turn even if they are still above 0 HP."
+  },
+  "short-range-communications-device": {
+   "Directional Ping": "While within the device's range, you can determine the direction the paired device is in.",
+   "Extra Range": "The range of the device increases from 1 mile to 2 miles."
+  },
+  "shotgun--one-handed-": {
+   "Dragon's Breath": "The first basic attack you make with this weapon in a round inflicts burning 5 regardless of it hits or not. (If used with Open Choke mod, this can affect that attack).",
+   "Proof Load": "When you make a heavy attack with this weapon, you may knock yourself back 5ft.",
+   "Point Blank": "You may make AoO’s as if this was a melee weapon with a 5ft threaten range.",
+   "Slugs": "Your range is doubled.",
+   "Open Choke": "The first basic light attack you make with this weapon in a round makes a Light attack against all enemies in a 45 degree cone up to range."
+  },
+  "shotgun--two-handed-": {
+   "Dragon's Breath": "The first basic attack you make with this weapon in a round inflicts burning 5 regardless of it hits or not.",
+   "Proof Load": "When you make a heavy attack with this weapon, you may knock yourself back 5ft.",
+   "Point Blank": "You may make AoO’s as if this was a melee weapon with a 5ft threaten range.",
+   "Slugs": "Your range is doubled.",
+   "Double Barrel": "Two-handed only. The first single target heavy attack you make with this weapon per round also light attacks the same target afterwards. This counts as your dual wield attack.",
+   "Open Choke": "The first basic light attack you make with this weapon in a round makes a Light attack against all enemies in a 45 degree cone up to range."
+  },
+  "sickle": {
+   "Reinforced Langet": "This weapon cannot be disarmed.",
+   "Bearded Extension": "Wild Swing now ignores guard, but the damage is reduced to 2 (light attack) or 4 (heavy attack).",
+   "Rotational Stability": "If a target moves away from you when you attack with this weapon and your next attack this turn is a throwing attack using this weapon against that target, that attack gains lock on.",
+   "Boomerang Wing": "After using a throwing attack with this weapon, you can return the weapon to your hand for 0 RP.",
+   "Lancebreaker": "You gain a +2 Lancebreaker Power bonus against enemies wielding polearms or lances."
+  },
+  "small-weapons--one-handed-": {
+   "Aerodynamic Design": "Boomerang/Return effects cannot be used with this. For 1 RP you can throw the dagger, making a light ranged attack.  On damage, the target is slowed until the end of its next turn.",
+   "Spring-loaded": "You do not need to draw and wield this weapon to use it, it is worn in your equipment. However, you can only attack once per round with it. If your first attack with it in a fight is a basic attack, it activates Hidden Weapon as if you drew it right before attacking, though this still does not allow you to benefit from Hidden Weapon multiple times per combat. This weapon can no longer be used to make thrown weapon attacks and cannot be drawn normally. Designed by Nya.",
+   "Compact Ergonomics": "When your other hand is free and you take a movement action that costs RP, that movement range is increased by 5ft.",
+   "Parrying Dagger": "If you don’t use this weapon to make an attack during your turn, you gain a +4 Shield bonus to your Block until the start of your next turn. You also gain a +4 bonus to your ‘damage’ roll when using the Parry ability.",
+   "Flat Pommel": "When your other hand is free, you use your free hand to push the blade into targets increasing melee heavy attack damage to 5d6.",
+   "Poisoner Weapon": "Applying poison to this weapon costs -1 AP (min 0).",
+   "Butterfly Knife": "Your first light attack each round with this weapon gains Trick Attack, but it can no longer make Heavy attacks.",
+   "Ring Pommel": "If you make a heavy attack that the target defends against, you do not trigger attacks of opportunity from them until the start of your next turn."
+  },
+  "smith-s-hammer--one-handed-": {
+   "Flexible Handle": "When dealing damage to a target, the minimum damage you deal is always 2. (this does not trigger on damage effects if damage would be 0 otherwise).",
+   "Chain Flail": "Cannot be defended against by 0 RP actions. Attacks made with this weapon do not count as consuming 0 RP actions.",
+   "Weighted Poll Upsetting": "When making 3 separate attacks against a target, the third attack you make with “Weighted Poll Upsetting” knocks the target back 10ft on damage.",
+   "Flanged Head": "When you crit with this weapon, the damage is still maximized even against blocking targets."
+  },
+  "smith-s-hammer--two-handed-": {
+   "Flexible Handle": "When dealing damage to a target, the minimum damage you deal is always 2. (this does not trigger on damage effects if damage would be 0 otherwise).",
+   "Chain Flail": "Cannot be defended against by 0 RP actions. Attacks made with this weapon do not count as consuming 0 RP actions.",
+   "Weighted Poll Upsetting": "When making 3 separate attacks against a target, the third attack you make with “Weighted Poll Upsetting” knocks the target back 10ft on damage.",
+   "Flanged Head": "When you crit with this weapon, the damage is still maximized even against blocking targets."
+  },
+  "sniper-rifle--two-handed-": {
+   "Semi-Automatic": "The first time you miss with a basic Heavy attack in a round you can follow up with a light attack against the same target. This counts as your dual wield attack.",
+   "Hollow Point Boat Tail Rounds": "You gain a +1 bonus to your accuracy when making a basic Heavy or precise attack.",
+   "Armor Piercing Rounds": "The first attack you make each round with this weapon treats the enemy guard as if it were 4 lower.",
+   "Bipod": "All attacks with this weapon gain the Prone keyword. While prone, you are considered to have low cover against ranged attacks.",
+   "Snipe": "If you did not move this turn or the previous turn you gain a +1d4 bonus to your accuracy roll on attacks made with a Sniper Rifle. If you already have the Sniper's Snipe ability, the effect is 4 instead of rolling when used with this weapon."
+  },
+  "snow-cloak": {
+   "Quick Activation": "The activation cost is reduced to 0 AP.",
+   "Snowproof": "While it's active, you are immune to Slowing effects caused by Frost damage.",
+   "Increased Protection": "The damage reduction is increased to 10."
+  },
+  "soul-lamp": {
+   "Vivre Flame": "The person who is attuned to the lamp must be present upon its creation, and a bit of their blood or magic must be inserted into the lamp. The soul lamp’s flame’s strength now corresponds to the health of the target, being a bright flame when the target is at 100% HP and becoming a Dim flicker when they are downed.",
+   "Damage Sensor": "When the target takes damage, the flame flickers a different color.",
+   "Directional Flame": "The lamp contains a flame that points in the direction of the person the lamp is attuned to."
+  },
+  "space-time-anchor": {
+   "Quickened Activation": "The activation cost is reduced by 1 AP.",
+   "Increased Range": "Increases the radius of the device by 10ft.",
+   "Anchor Backpack": "You may carry the device around instead of placing it on the ground. However, your movement speed is reduced by 10ft if doing so while the device is active.",
+   "Make Exception": "Allies can still teleport while in the area."
+  },
+  "spider-shoes": {
+   "Web Resistance": "You don't suffer any penalties from walking across webs either natural or created through magic or items.",
+   "Quick Activation": "The activation cost is reduced by 1 AP, to a minimum of 0.",
+   "Ceiling Drop": "You may cancel the effect of this artifice for 0 RP. When you do, if you were attached to a ceiling or vertical surface, treat the fall as if it was 100ft lower than it is.",
+   "Sticky Footing": "You gain a +5 bonus to any saves that would knock you prone or knock you back.",
+   "Skitter Away": "When you move up a vertical surface from a horizontal one, your first movement of the round does not provoke an attack of opportunity."
+  },
+  "staff--one-handed-": {
+   "Elemental Staff": "You may alter the damage type from an attack made with this weapon for 0 AP. The damage type must be an element type you have mastered (usually unlocked through classes) or one that’s built into the weapon.",
+   "Powerful Push": "The knockback distance is increased to 10ft.",
+   "Efficiency": ": The first basic attack you make each round may trigger the knockback effect without spending mana.",
+   "Unstoppable Force": "The knockback effect is now on hit rather than on damage."
+  },
+  "staff--two-handed-": {
+   "Elemental Staff": "You may alter the damage type from an attack made with this weapon for 0 AP. The damage type must be an element type you have mastered (usually unlocked through classes) or one that’s built into the weapon",
+   "Powerful Push": "The knockback distance is increased to 10ft.",
+   "Efficiency": ": The first basic attack you make each round may trigger the knockback effect without spending mana.",
+   "Unstoppable Force": "The knockback effect is now on hit rather than on damage."
+  },
+  "stun-gun": {
+   "Training Stock": "You can use this weapon even if you're not proficient with any of the above listed firearms.",
+   "Long Range": "The range of the weapon is increased to 120ft.",
+   "Capture Model": "When dealing damage to a Grunt with a Heavy attack, they are stunned until  the start of your next turn even if they are still above 0 HP."
+  },
+  "thrown--one-handed-": {
+   "Skirmisher": "After making a ranged attack with this weapon, you may move 5ft as if you had the light sword passive (Nimble). Spinning Axe (35 Points): This weapon also gains the axe passive (Wild Swing). You keep this effect even when throwing the weapon.",
+   "Throwing Hammer": "Attacks with this weapon gain the Artillery keyword within 30ft.",
+   "Ricocheting": "Once per round when this weapon deals damage with a Heavy attack, you may make a Light attack against a different target within 20ft."
+  },
+  "thrown--two-handed-": {
+   "Skirmisher": "After making a ranged attack with this weapon, you may move 5ft as if you had the light sword passive (Nimble). Spinning Axe (35 Points): This weapon also gains the axe passive (Wild Swing). You keep this effect even when throwing the weapon.",
+   "Throwing Hammer": "Attacks with this weapon gain the Artillery keyword within 30ft.",
+   "Ricocheting": "Once per round when this weapon deals damage with a Heavy attack, you may make a Light attack against a different target within 20ft."
+  },
+  "transforming-weapon": {
+   "Smooth Operations": "The first switch in an encounter does not consume a shell.",
+   "Triple Form": "You may attach 3 weapons to this instead of 2.",
+   "Quick Swap": "You may activate this artifice for 0 RP instead of 0 AP."
+  },
+  "twinblade--two-handed-": {
+   "Haladie Blade": "Attacks with this weapon have -1 Power, but you can make 2 offhand attacks per turn instead of one with this weapon.",
+   "Shadow-Type Saber": "When engaged in melee and you take a block or dodge action and then you are attacked by another melee attack by a different enemy, you may use block or dodge against that attack for 0 RP.  Applies once per turn"
+  },
+  "universal-translator": {
+   "Parley Mode": "The device now translates all words spoken near it, allowing for easier two way communication.",
+   "Voice Amplification": "In addition to translating, the speaker's voice is also amplified to be heard from over long distances as if shouting."
+  },
+  "wand--one-handed-": {
+   "Ornamental": "You may use this weapon as one minor item such as an instrument or parasol.",
+   "Echo Blast": "When you make a basic Heavy attack, you may split the damage against two different targets in range. Make only 1 accuracy check against both.",
+   "Warding Wand": "You may spend 1 AP to gain 5 temporary HP until the start of your next turn.",
+   "Dedicated Focus": "Gain +1 bonus to accuracy rolls, but can only fire elemental attacks of 1 element. Spells cast through this wand only gain that bonus if they deal that element of damage.",
+   "Mana Core": "When you deal max damage with an attack made with this weapon or with a spell cast through this weapon against an enemy in an encounter, your next spell this turn costs 1 less mana (min 0)"
+  },
+  "wand--two-handed-": {
+   "Ornamental": "You may use this weapon as one minor item such as an instrument or parasol.",
+   "Echo Blast": "When you make a basic Heavy attack, you may split the damage against two different targets in range. Make only 1 accuracy check against both.",
+   "Warding Wand": "You may spend 1 AP to gain 5 temporary HP until the start of your next turn.",
+   "Mana Surge": "Once per round after you cast a spell, you may make a Light attack for 0 AP. Two-Handed wand only. This counts as your dual wield attack.",
+   "Dedicated Focus": "Gain +1 bonus to accuracy rolls, but can only fire elemental attacks of 1 element. Spells cast through this wand only gain that bonus if they deal that element of damage.",
+   "Mana Core": "When you deal max damage with an attack made with this weapon or with a spell cast through this weapon against an enemy in an encounter, your next spell this turn costs 1 less mana (min 0)"
+  },
+  "whip--one-handed-": {
+   "Barbed Wire": "Upon landing a critical hit with this weapon, apply Bleeding to the target.",
+   "Fluttering Ribbon": "At the start of your turn, you may change your threatened range to 5-10ft until the start of your next turn.",
+   "Binding Flow": "When dealing damage with a Heavy attack, you may choose to not do damage to instead reduce a creature’s movement speed to 0 until the start of your next turn or until you move. Does not work against bosses or creatures bigger than you.",
+   "Hooked Coil": "When dealing damage with an attack of opportunity against an enemy leaving your range, you may pull them back 5ft. Only triggers once per turn."
+  },
+  "wind-bubble": {
+   "Quick Activation": "The activation cost is reduced by 1 AP or 1 RP, to a minimum of 0.",
+   "Slow Fall": "Reduces the falling speed down to 20ft per round.",
+   "Underwater Mode": ": If used underwater, the bubble provided you air as you slowly float upwards."
+  },
+  "winged-backpack": {
+   "Quick Activation": "The activation cost is reduced by 1 AP, to a minimum of 0.",
+   "Hover Mode": "When activated, the wearer can fly at half speed up to a maximum of 40ft high. If activated when higher than 40ft high, you glide down until you reach the 40ft height limit. Functions similarly to the Flight ability in regards to taking damage while flying."
+  },
+  "botany-bag": {
+   "One item container": "The additional units this bag can carry is doubled, but it only works for a single material type rather than all of them."
+  },
+  "food-bag": {
+   "One item container": "The additional units this bag can carry is doubled, but it only works for a single material type rather than all of them."
+  },
+  "mining-bag": {
+   "One item container": "The additional units this bag can carry is doubled, but it only works for a single material type rather than all of them."
+  }
+ }
+}
